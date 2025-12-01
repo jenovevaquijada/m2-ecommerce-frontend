@@ -1,0 +1,119 @@
+#pre-h{
+    background-color: #6C4A90;
+    padding-top: 15px;
+    padding-bottom: 2px;
+}
+
+#container-01 {
+    background-color:#B093CC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#nosotros {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#form-contacto {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#boletin {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footer {
+    background-color: #B093CC;
+    padding-top: 50px;
+}
+
+#desc-prod-01 {
+    display: flex;
+    margin-top: 200px;
+}
+
+#info-prod-01 {
+    padding-top: none;
+}
+
+.foto-nosotros {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+.btn-custom {
+    background-color: #6C4A90;
+    border-color: #6C4A90;
+}
+
+#foto-servicios {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#btnEnviar-01 {
+    margin-top: 20px;
+    background-color: #6C4A90;
+    border-color: #6C4A90;
+}
+
+#btn-susc {
+    background-color: #6C4A90;
+    border-color: #6C4A90;
+}
+
+#add-to-cart-button {
+    background-color: #6C4A90;
+    border-color: #6C4A90;
+}
+
+#btn-sabermas {
+    background-color: #6C4A90;
+    border-color: #6C4A90;
+    text-align: left;
+}
+
+#productos-fila01 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#productos-fila02 {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#productos-fila03 {
+    padding-top: 10px;
+}
+
+#productos-fila04 {
+    padding-top: 10px;
+}
+
+#boton-carrito {
+    margin-right: 10px;
+}
+
+#servicios {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#tienda {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.custom-navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tu Petsitter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">   <!-- Enlaza el archivo de estilos CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<body> <!-- Cuerpo de la estructura -->
+  <div class="container-fluid text-center text-light" id="pre-h">
+    <p>🎁 ¡Adelanta tus compras navideñas!</p>
+  </div>
+
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar">
+      <div class="container-fluid" id="container-01">
+        <a class="navbar-brand" href="index.html">
+        <img src="./assets/img/logo-navbar.png" alt="logo">
+        </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#nosotros">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#servicios">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tienda">Tienda</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#form-contacto">Contacto</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
+  <main class="container pb-30px">
+    <nav aria-label="breadcrumb"> <!-- Migas de pan -->
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+        <li class="breadcrumb-item"><a href="tienda.html">Tienda</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Snack perro variedades</li>
+      </ol>
+    </nav>
+
+    <section id="producto-01">
+
+      <div class="row g-4">
+      <div class="card mb-3 border-0">
+      <div class="row g-0">
+      <div class="col-md-6">
+        <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./assets/img/snacksalchichas-01.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/img/salchichapavo-01.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/img/salchichapollo-01.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/img/salchichasalmon-01.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      </div>
+
+      <div class="col-md-6" id="desc-prod-01">
+      <div class="card-body">
+        <p class="card-text">McLovin's Pet Food</p>
+        <h4 class="card-title">Snack perro variedades</h4>
+        <h6 class="card-text">Disponibilidad: en stock</h6>
+        <h4 class="card-price">$8.990</h4>
+        <br>
+        <br>
+      <div class="d-grid gap-2 d-md-block">
+        <a id="add-to-cart-button" onclick="addToCart('NombreDelProducto', 10.99)" href="#" class="btn btn-primary">Agregar al carrito</a>
+      </div>
+      </div>  
+      </div>
+        </div>                
+      </div>
+      <div class="col" id="info-prod-01">
+      <div class="card-body" style="padding-bottom: 100px;">
+        <h5 class="card-title">Descripción</h5>
+          <ul>
+            <li><b>Marca:</b> McLovin's Pet Food</li>
+            <li><b>Sabor:</b> Hígado de vacuno</li>
+            <li><b>Rango de Edad:</b> Todas las etapas de la vida</li>
+            <li><b>Forma del Producto:</b> Liofilizado</li>
+            <li><b>Usos Específicos del Producto:</b> Salud digestiva</li>
+            <li><b>Recomendación de Raza:</b> Todos los tamaños de raza</li>
+          </ul>
+          <br>
+        <h5 class="card-title">Información nutricional</h5>
+        <p>
+          <b>Hígado de Res de Calidad Premium:</b> Hecho de hígado de res de alta calidad, alimentado con pasto, estos premios ofrecen una experiencia de bocadillo rica y sabrosa para tus mascotas.
+        </p>
+        <p>
+          <b>Liofilizado para una Nutrición Óptima:</b> El proceso de liofilización preserva los nutrientes y sabores naturales del hígado de res, asegurando un premio saludable y delicioso para tus amigos peludos.
+        </p>
+        <p>
+          <b>Premios de Ingrediente Único:</b> Con solo un ingrediente, estos premios están libres de aditivos artificiales, rellenos y conservantes, lo que los convierte en una opción natural y saludable para tus mascotas.
+        </p>
+        <p>
+          <b>Alto Contenido de Proteínas:</b> Ricos en proteínas, estos premios proporcionan un impulso nutritivo a la dieta de tu mascota, apoyando el desarrollo muscular, los niveles de energía y el bienestar general.
+        </p>
+        <p>
+          <b>Sin Granos y Sin Gluten:</b> Ideales para mascotas con sensibilidades dietéticas o alergias, estos premios son sin granos y sin gluten, promoviendo una mejor digestión y reduciendo el riesgo de reacciones alérgicas potenciales.
+        </p>
+        <br>
+        <h5 class="card-title">Instrucciones</h5>  
+        <p class="card-text">Los premios no deben proporcionar más del 10% de las calorías diarias.</p>   
+</div>
+
+    </section>
+  </main>
+
+<!-- Footer-->
+<section class="container-fluid" id="container-01">
+  <footer>
+  <div class="text-center" style="padding-top: 30px;">
+    <img src="./assets/img/logo-navbar.png" alt="logo">
+  </div>
+  
+  <div class="text-center text-light p-3" id="footer" style="padding-bottom: 30px;">
+    © 2025 Tu Petsitter - Todos los derechos reservados.
+  </div>
+  <div>
+   
+  </div>
+</footer>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="assets/js/app.js"></script>
+
+</body>
+</html>
