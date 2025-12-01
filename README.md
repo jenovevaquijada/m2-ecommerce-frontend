@@ -13,8 +13,10 @@ Interfaz web de una tienda e-commerce con navegación, listado de productos, det
 
 ## Funcionalidades
 - Navbar para navegar por la página
+- Carrusel
+- Información relevante del ecommerce (secciones Nosotros, Servicios, Formulario de contacto y suscripción a boletín)
 - Listado de productos en tarjetas con botón de compra
-- Página de detalle de producto
+- Página de detalle de producto con carrusel de variedades del mismo
 - Footer con información de la tienda
 
 ## Capturas
